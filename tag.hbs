@@ -14,7 +14,7 @@
         {{#if tag.description}}
             {{tag.description}}
         {{else}}
-            {{pagination.total}} examples of {{tag.name}} components
+            {{pagination.total}} {{tag.name}} {{plural pagination.total empty='examples' singular=' example' plural=' examples'}}
         {{/if}}
       </h2>
     </div>
